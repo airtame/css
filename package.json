@@ -1,0 +1,34 @@
+{
+  "name": "stylelint-config-airtame",
+  "version": "1.0.0",
+  "description": "Airtame's Stylelint configuration",
+  "scripts": {
+    "test": "mocha --reporter dot --compilers js:babel-register ./test/"
+  },
+  "keywords": [
+    "airtame",
+    "stylelint",
+    "stylelint-config"
+  ],
+  "author": "Marcos Mellado <marcos@mellados.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:airtame/css.git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "stylelint.config.json"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "stylelint": "^7.9.0"
+  },
+  "dependencies": {
+    "stylelint-scss": "^1.4.3"
+  }
+}
