@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-airtame",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Airtame's Stylelint configuration",
   "scripts": {
     "test": "mocha --reporter dot --compilers js:babel-register ./test/"
@@ -26,6 +26,9 @@
     "babel-preset-es2015": "^6.24.0",
     "chai": "^3.5.0",
     "mocha": "^3.2.0",
+    "stylelint": "^7.9.0"
+  },
+  "peerDependencies": {
     "stylelint": "^7.9.0"
   },
   "dependencies": {
