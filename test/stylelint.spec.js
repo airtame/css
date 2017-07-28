@@ -20,6 +20,7 @@ body {
     })
     .catch(err => {
       console.log(err.stack);
+      done();
     });
   });
 
