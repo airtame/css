@@ -1,5 +1,7 @@
 # Airtame stylelint configuration
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/airtame/css.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://img.shields.io/travis/airtame/stylelint-config-airtame.svg)](https://travis-ci.org/airtame/stylelint-config-airtame) [![npm version](https://badge.fury.io/js/stylelint-config-airtame.svg)](https://www.npmjs.com/package/stylelint-config-airtame)
 
 ## Usage
