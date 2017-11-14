@@ -1,8 +1,6 @@
-import chai, { expect } from 'chai';
-import {lint} from 'stylelint';
+import { lint } from 'stylelint';
 
 describe('stylelint', () => {
-
   it('should validate the .stylelint rules', done => {
     const code = `
 body {
@@ -12,16 +10,15 @@ body {
 
     lint({
       code,
-      configFile: './stylelint.config.json'
+      configFile: './stylelint.config.json',
     })
-    .then(res => {
-      expect(res.errored).to.equal(false);
-      done();
-    })
-    .catch(err => {
-      console.log(err.stack);
-      done();
-    });
+      .then(res => {
+        expect(res.errored).toBe(false);
+        done();
+      })
+      .catch(err => {
+        console.log(err.stack);
+        done();
+      });
   });
-
 });
