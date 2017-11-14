@@ -13,7 +13,7 @@
     "url": "https://github.com/airtame/css.git"
   },
   "main": "index.js",
-  "files": ["index.js", "stylelint.config.json"],
+  "files": ["index.js", "rules"],
   "keywords": ["airtame", "stylelint", "stylelint-config"],
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.32",
@@ -25,6 +25,7 @@
     "stylelint": "^8.2.0"
   },
   "dependencies": {
+    "stylelint-order": "^0.7.0",
     "stylelint-scss": "^2.1.0"
   },
   "scripts": {
