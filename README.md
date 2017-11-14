@@ -1,6 +1,7 @@
 # Airtame stylelint configuration
 
 [![Build Status](https://img.shields.io/travis/airtame/css.svg)](https://travis-ci.org/airtame/css) [![npm version](https://badge.fury.io/js/stylelint-config-airtame.svg)](https://www.npmjs.com/package/stylelint-config-airtame)
+[![David](https://img.shields.io/david/airtame/css.svg)](https://david-dm.org/airtame/css)
 [![Greenkeeper badge](https://badges.greenkeeper.io/airtame/css.svg)](https://greenkeeper.io/)
 
 ## Usage
