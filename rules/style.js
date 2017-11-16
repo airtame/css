@@ -15,7 +15,6 @@ module.exports = {
   indentation: 2,
   'max-nesting-depth': 3,
   'max-empty-lines': 1,
-  'number-leading-zero': 'never',
   'number-no-trailing-zeros': true,
   'rule-empty-line-before': [
     'always',
