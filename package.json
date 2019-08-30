@@ -25,7 +25,7 @@
     "stylelint": "^8.2.0"
   },
   "dependencies": {
-    "stylelint-order": "^0.7.0",
+    "stylelint-order": "^3.1.0",
     "stylelint-scss": "^3.0.0"
   },
   "scripts": {
